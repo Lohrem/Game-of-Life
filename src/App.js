@@ -15,8 +15,8 @@ const genGrid = () => {
 
 const neighborFinder = [
   [0, 1], //East
-  [1, 0], //North
   [-1, 0], // South
+  [1, 0], //North
   [0, -1], //West
   [1, -1], //North West
   [-1, -1], //South West
